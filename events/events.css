@@ -27,6 +27,7 @@
 	padding-bottom: 	200px;
 	margin-left: 	10px;
 	margin-bottom: 	10px;
+	float: left;
 }
 
 .dreimg {
@@ -52,6 +53,7 @@ padding-top: 	10px;
 	padding-bottom: 	200px;
 	margin-left: 	10px;
 	margin-bottom: 	10px;
+	float: left;
 }
 
 .cubeimg {
@@ -61,6 +63,106 @@ padding-top: 	10px;
 /*padding-bottom: 	*/
 }
 .cube article {
+	position: 	absolute;
+	top: 	350px;
+	max-width: 	300px;
+	max-height: 	200px;
+	padding-left: 	10px;
+	border-top: 	5px solid	black;
+	font-size: 	28px;	
+}
+
+.eazy{
+	border: 5px black	solid;
+	max-width: 	310px;
+	padding-bottom: 	200px;
+	margin-left: 	10px;
+	margin-bottom: 	10px;
+	float: left;
+}
+
+.eazyimg {
+/*background-image:url(http://www.bigsnyc.org/sites/default/files/styles/column_large/public/images/news/11088861584_ed9c47a4bb_c.jpg?itok=4j07_I-J});*/
+position: relative;
+padding-top: 	10px;
+/*padding-bottom: 	*/
+}
+.eazy article {
+	position: 	absolute;
+	top: 	350px;
+	max-width: 	300px;
+	max-height: 	200px;
+	padding-left: 	10px;
+	border-top: 	5px solid	black;
+	font-size: 	28px;	
+}
+
+.ren{
+	border: 5px black	solid;
+	max-width: 	310px;
+	padding-bottom: 	200px;
+	margin-left: 	10px;
+	margin-bottom: 	10px;
+	float: left;
+}
+
+.renimg {
+/*background-image:url(http://www.bigsnyc.org/sites/default/files/styles/column_large/public/images/news/11088861584_ed9c47a4bb_c.jpg?itok=4j07_I-J});*/
+position: relative;
+padding-top: 	10px;
+/*padding-bottom: 	*/
+}
+.ren article {
+	position: 	absolute;
+	top: 	350px;
+	max-width: 	300px;
+	max-height: 	200px;
+	padding-left: 	10px;
+	border-top: 	5px solid	black;
+	font-size: 	28px;	
+}
+
+.rza{
+	border: 5px black	solid;
+	max-width: 	310px;
+	padding-bottom: 	200px;
+	margin-left: 	10px;
+	margin-bottom: 	10px;
+	float: left;
+}
+
+.rzaimg {
+/*background-image:url(http://www.bigsnyc.org/sites/default/files/styles/column_large/public/images/news/11088861584_ed9c47a4bb_c.jpg?itok=4j07_I-J});*/
+position: relative;
+padding-top: 	10px;
+/*padding-bottom: 	*/
+}
+.rza article {
+	position: 	absolute;
+	top: 	350px;
+	max-width: 	300px;
+	max-height: 	200px;
+	padding-left: 	10px;
+	border-top: 	5px solid	black;
+	font-size: 	28px;	
+}
+
+.gza{
+	border: 5px black	solid;
+	max-width: 	310px;
+	padding-bottom: 	200px;
+	margin-left: 	10px;
+	margin-bottom: 	10px;
+	float: left;
+}
+
+.gzaimg {
+/*background-image:url(http://www.bigsnyc.org/sites/default/files/styles/column_large/public/images/news/11088861584_ed9c47a4bb_c.jpg?itok=4j07_I-J});*/
+position: relative;
+padding-top: 	10px;
+/*padding-bottom: 	*/
+}
+.gza article {
 	position: 	absolute;
 	top: 	350px;
 	max-width: 	300px;
