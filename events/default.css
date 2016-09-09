@@ -1,0 +1,24 @@
+*{
+	box-sizing: 	border-box;	
+}
+body{
+	width: 900px;
+	margin: 0 auto;
+}
+
+.events {
+	float: left;
+	display: inline-block;
+}
+
+.picture {
+	width: 45%;
+	position:relative	;	
+	}
+
+article{
+	position: 	absolute;
+	width: 	45%;
+	background-color: 	cyan;
+	border:	5px;
+}
