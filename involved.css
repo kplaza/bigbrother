@@ -90,6 +90,14 @@ iframe {
 		width: inherit;
 	}
 }
+@media (max-width: 600px) {
+	iframe {
+		display: none;
+	}
+	body {
+		width: inherit;
+	}
+}
 
 
 
