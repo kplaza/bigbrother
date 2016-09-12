@@ -1,0 +1,69 @@
+body{
+	margin: 0 auto;
+	width: 1000px;
+	background-color: lightblue;
+	text-align: center;
+}
+
+.gallery-img > div {
+	display: inline-block;
+	width: 300px;
+	height: 300px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border: 2px black solid;
+	background-position: center;
+	background-size: auto 300px;
+	background-repeat: no-repeat;
+}
+
+#dre {
+background-image:url(http://www.bigsnyc.org/sites/default/files/styles/column_small/public/images/homepage-slider/BIG_006_Website_SliderGraphics_HowWeMakeAnImpact.jpg?itok=U8CX2jeC);
+}
+#cube{
+	background-image:url(http://www.bigsnyc.org/sites/default/files/styles/column_large/public/images/news/11088861584_ed9c47a4bb_c.jpg?itok=4j07_I-J});}
+#eazy{
+	background-image:url(http://www.bigsnyc.org/sites/default/files/styles/column_large/public/images/news/Pong.jpg?itok=P5IpXOtk);
+);}
+#ren{
+	background-image:url(http://www.bigsnyc.org/sites/default/files/styles/column_large/public/images/special-events/Web%20Header.JPG?itok=qrOxp7bL);
+}
+#rza{
+	background-image:url(http://www.bigsnyc.org/sites/default/files/styles/column_small/public/images/special-events/BHM%2016%20Flyer.jpg?itok=M1oTz3bl);
+}
+#gza{
+	background-image:url(http://www.bigsnyc.org/sites/default/files/styles/column_large/public/images/special-events/10696764656_8909ced79d_b.jpg?itok=-SBJF6Pm);
+}
+
+
+
+
+@media (max-width: 750px) {
+	body {
+		width: 375px;
+	}
+	.gallery-img > div {
+		width: 150px;
+		height: 150px;
+		margin-right: 10px;
+		margin-bottom: 10px;
+		border: 0;
+		background-size: auto 150px;
+		background-repeat: no-repeat;
+	}	
+}
+
+@media (max-width: 374px) {
+	body {
+		width: 84px;
+	}
+	.gallery-img > div {
+		width: 75px;
+		height: 75px;
+		margin-right: 0;
+		margin-bottom: 1px;
+		border: 0;
+		background-size: auto 75px;
+		background-repeat: no-repeat;
+	}
+}

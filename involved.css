@@ -5,7 +5,21 @@ body {
 	
 	color: blue;
 	width: inherit;
+	background-color: #F3F3F3;
+	background-image: url(bkground.jpg);
+	background-position: center;
 
+	color: black;
+
+}
+h2, h3, h4 {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 20px;
+
+}
+p {
+	font-family: 'Kanit', sans-serif;
+	font-size: 14px;
 }
 header {
 	background-image: url(nyccity.jpg);
@@ -37,6 +51,7 @@ iframe {
 	padding: 5px;
 
 }
+
 .logo{
 	height: 100px;
 	width: 100px;
@@ -58,17 +73,31 @@ iframe {
 	padding: 10px;
 	margin-left: 10px;
 
-	
 }
 .right {
 	width: 450px;
 	float: left;
 	padding: 10px;
-	margin-left: 10px;
+	margin-left: 10px;	
 }
 
 .padding {
 	padding: 10px;
 }
+
+@media (max-width: 900px) {
+	body {
+		width: inherit;
+	}
+}
+@media (max-width: 600px) {
+	iframe {
+		display: none;
+	}
+	body {
+		width: inherit;
+	}
+}
+
 
 
