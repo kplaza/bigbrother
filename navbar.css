@@ -1,6 +1,12 @@
-* {
-	box-sizing: border-box;
+
+
+
+
+li a.active {
+    color: white;
+    
 }
+
 body {
 	
 	color: blue;
@@ -30,4 +36,13 @@ a {
 	color: mintcream;
 	text-decoration: none;
 	font-family: "Arial Black", Gadget, sans-serif;
+}
+div {
+  text-align: center;
+
+}
+
+#video {
+  margin: 0 auto;
+  float: right;
 }
