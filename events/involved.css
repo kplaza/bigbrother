@@ -1,0 +1,39 @@
+
+body {
+	
+	color: blue;
+	width: inherit;
+	background-color: #F3F3F3;
+	background-image: url(bkground.jpg);
+	background-position: center;
+
+	color: black;
+
+}
+header {
+	background-image: url(nyccity.jpg);
+	background-repeat: no-repeat;
+/*    background-attachment: fixed;*/
+    background-position: center;
+	height: 100px;
+	width: 1000px;
+}
+nav ul li {
+	list-style: none;
+	height: 90px;
+	text-transform: uppercase;
+	background-color: transparent;
+	float: right;
+	margin-right: 50px;
+	display: inline-block;
+	}
+
+a {
+	font-size: 30px;
+	color: mintcream;
+	text-decoration: none;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+
+
+
